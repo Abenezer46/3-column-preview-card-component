@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://stats-preview-card-component-frontend.pages.dev/)
+- Solution URL: [Solution URL here](https://column-preview-card-component.pages.dev/)
 
 ## My process
 
