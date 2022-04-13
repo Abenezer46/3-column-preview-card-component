@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+    max-width: 921px;
+    max-height: 500px;
+    margin: 170px auto 130px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    color: hsl(0, 0%, 95%);
+}
+
+.left{
+    background-color: hsl(31, 77%, 52%);
+    padding-left: 47px;
+    padding-bottom:47px ;
+}
+
+.center{
+    background-color: hsl(184, 100%, 22%);
+    padding-left: 47px;
+    padding-bottom: 47px;
+}
+
+.right{
+    background-color: hsl(179, 100%, 13%);
+    padding-left: 47px;
+    padding-bottom: 47px;
+}
+.hero{
+    margin-bottom: 39px;
+    padding-top:47px ;
+}
+
+.title{
+    font-size: 36px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform:uppercase;
+    margin-bottom: 38px;
+}
+
+.text{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    margin-right: 80px;
+    margin-bottom: 85px;
+}
+
+.left a{
+    border-radius: 35px;
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    background-color: #fff;
+    padding: 15px 34px;
+}
+
+.left a:hover{
+    border: 4px solid #fff;
+    color: #fff;
+    background-color: hsl(31, 77%, 52%);
+    
+}
+
+.center a{
+    border-radius: 35px;
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    background-color: #fff;
+    padding: 15px 34px;
+}
+
+.center a:hover{
+    border: 4px solid #fff;
+    color: #fff;
+    background-color: hsl(184, 100%, 22%);
+    
+}
+
+.right a{
+    border-radius: 35px;
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    background-color: #fff;
+    padding: 15px 34px;
+}
+
+.right a:hover{
+    border: 4px solid #fff;
+    color: #fff;
+    background-color: hsl(179, 100%, 13%);
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .container{
+        max-width: 327px;
+        max-height: 1325px;
+        margin: 170px auto 130px auto;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        color: hsl(0, 0%, 95%);
+    }
+    .text{
+        margin-bottom: 28px;
+    }
+}
